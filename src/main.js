@@ -55,7 +55,7 @@ function init() {
 
     const loader = new GLTFLoader();
     loader.setDRACOLoader( dracoLoader );
-    loader.setPath( '/Fauteuil-Bolero/Assets/' );
+    loader.setPath( 'Assets/' );
     loader.load( 'SM_Bolero_R01_Low.glb', function ( gltf ) {
 
       const fauteuil = gltf.scene;
